@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
 
   groceries[dairy].each {
-    |item| item.flatten
+    |item| groceries.flatten[item]
   }
 
 end
